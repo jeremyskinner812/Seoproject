@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* nav bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,7 +40,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* links and font */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* main background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +57,12 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    
+}
+
+main {
+    width: 75%;
+    display: inline-block;
 }
 
 .float-left {
@@ -143,7 +149,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -165,7 +171,7 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
 }
 
@@ -178,7 +184,7 @@ p {
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+#online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
